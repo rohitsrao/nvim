@@ -1,0 +1,54 @@
+local options = { noremap = true, silent = true }
+local term_options = { silent = true }
+
+-- shorten keymap function name
+local keymap = vim.api.nvim_set_keymap
+
+-- remap space as leader key
+keymap("", "<Space>", "<Nop>", options)
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+
+-- normal mode mappings --
+
+-- buffer navigation
+keymap("n", "<S-l>", ":bnext<CR>", options)
+keymap("n", "<S-h>", ":bprevious<CR>", options)
+
+-- netrw file explorer
+keymap("n", "<leader>e", ":Lex 15<cr>", options)
+
+-- resize with arrows
+keymap("n", "<C-Up>", ":resize +1<CR>", options)
+keymap("n", "<C-Down>", ":resize -1<CR>", options)
+keymap("n", "<C-Left>", ":vertical resize -1<CR>", options)
+keymap("n", "<C-Right>", ":vertical resize +1<CR>", options)
+
+-- window navigation
+keymap("n", "<C-h>", "<C-w>h", options)
+keymap("n", "<C-j>", "<C-w>j", options)
+keymap("n", "<C-k>", "<C-w>k", options)
+keymap("n", "<C-l>", "<C-w>l", options)
+
+-- end of normal mode mappings --
+
+-- visual mode mappings --
+
+-- indentation
+keymap("v", "<", "<gv", options)
+keymap("v", ">", ">gv", options)
+
+-- pasting over selection does not yank
+keymap("v", "p", '"_dP', options)
+
+-- end of visual mode mappings --
+
+-- terminal mappings--
+
+-- better terminal navigation
+keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_options)
+keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_options)
+keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_options)
+keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_options)
+
+-- end of terminal mappings --
