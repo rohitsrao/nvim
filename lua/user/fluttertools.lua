@@ -38,7 +38,7 @@ require("flutter-tools").setup {
   closing_tags = {
     highlight = "ErrorMsg", -- highlight for the closing tag
     prefix = ">", -- character to use for close tag e.g. > Widget
-    enabled = true -- set to false to disable
+    enabled = false -- set to false to disable
   },
   dev_log = {
     enabled = true,
@@ -70,7 +70,10 @@ require("flutter-tools").setup {
     settings = {
       showTodos = true,
       completeFunctionCalls = true,
-      analysisExcludedFolders = {"/home/rohitsrao/snap/flutter/common/flutter/.pub-cache/hosted/pub.dartlang.org"}
+      analysisExcludedFolders = {
+        "/home/rohitsrao/snap/flutter/common/flutter/.pub-cache",
+        "/home/rohitsrao/.pub-cache"
+      }
     }
   }
 }

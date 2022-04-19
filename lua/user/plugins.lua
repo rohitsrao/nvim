@@ -45,6 +45,7 @@ return packer.startup(function(use)
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins. many plugins depend on this.
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "akinsho/flutter-tools.nvim" -- Flutter Tools
+  use "lukas-reineke/indent-blankline.nvim" -- Indent Guides
 
   -- colorschemes
   use "LunarVim/onedarker.nvim"
