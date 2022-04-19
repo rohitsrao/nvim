@@ -16,7 +16,7 @@ vim.opt.tabstop = 2                             -- insert 2 spaces for a tab
 vim.opt.termguicolors = true                    -- set term gui colors (most terminals support this)
 vim.opt.undofile = true                         -- enable persistent undo
 vim.opt.updatetime = 300                        -- faster completion (4000ms default)
-vim.opt.writebackup = false                     
+vim.opt.writebackup = false
 
 -- :help options
 -- vim.opt.cmdheight = 2                           -- more space in the neovim command line for displaying messages

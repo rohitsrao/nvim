@@ -44,6 +44,7 @@ return packer.startup(function(use)
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim. many plugins depend on this.
   use "nvim-lua/plenary.nvim" -- Useful lua functions used ny lots of plugins. many plugins depend on this.
   use "wbthomason/packer.nvim" -- Have packer manage itself
+  use "akinsho/flutter-tools.nvim" -- Flutter Tools
 
   -- colorschemes
   use "LunarVim/onedarker.nvim"
