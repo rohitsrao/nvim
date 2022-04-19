@@ -1,4 +1,4 @@
-local lspconfig = require("lspconfig")
+--local lspconfig = require("lspconfig")
 
 local find_dart_sdk_root_path = function()
     if vim.fn["executable"]("dart") == 1 then
@@ -39,7 +39,7 @@ return {
       outline = true,
       suggestFromUnimportedLibraries = true
     },
-    root_dir = lspconfig.util.root_pattern("pubspec.yaml"),
+    --root_dir = lspconfig.util.root_pattern("pubspec.yaml"),
     settings = {
       dart = {
         completeFunctionCalls = true,

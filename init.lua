@@ -1,5 +1,6 @@
 require "user.colorscheme"
 require "user.completion"
+require "user.fluttertools"
 require "user.keymaps"
 require "user.lsp"
 require "user.options"
