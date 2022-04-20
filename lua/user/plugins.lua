@@ -46,6 +46,8 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim" -- Have packer manage itself
   use "akinsho/flutter-tools.nvim" -- Flutter Tools
   use "lukas-reineke/indent-blankline.nvim" -- Indent Guides
+  use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
+  use "numToStr/Comment.nvim" -- Easily comment stuff
 
   -- colorschemes
   use "LunarVim/onedarker.nvim"
@@ -71,6 +73,7 @@ return packer.startup(function(use)
     run = ":TSUpdate",
   }
   use "p00f/nvim-ts-rainbow" -- rainbow paranthesis
+  use 'JoosepAlviste/nvim-ts-context-commentstring' -- context aware commenting especially for jsx
 
   -- telescope
   use "nvim-telescope/telescope.nvim"

@@ -22,6 +22,9 @@ configs.setup {
   },
   sync_install = false,
   ignore_install = { "" }, -- List of parsers to ignore installing
+  autpairs = {
+    enable = true,
+  },
   highlight = {
     enable = true, -- false will disable the whole extension
     disable = { "" }, -- list of language that will be disabled
@@ -35,5 +38,9 @@ configs.setup {
     -- disable = { "jsx", "cpp" }, list of languages you want to disable the plugin for
     -- colors = {}, -- table of hex strings
     -- termcolors = {} -- table of colour name strings
+  },
+  context_commentstring = {
+    enable = true,
+    enable_autocmd = false,
   },
 }

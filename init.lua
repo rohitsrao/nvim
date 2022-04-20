@@ -1,4 +1,6 @@
+require "user.autopairs"
 require "user.colorscheme"
+require "user.comment"
 require "user.completion"
 require "user.fluttertools"
 require "user.keymaps"
