@@ -10,7 +10,6 @@ vim.opt.relativenumber = true                   -- set relative numbered lines
 vim.opt.scrolloff = 8                           -- is one of my fav
 vim.opt.shiftwidth = 2                          -- the number of spaces inserted for each indentation
 vim.opt.sidescrolloff = 8
---vim.opt.smartindent = true                      -- make indenting smarter again
 vim.opt.splitbelow = true                       -- force all horizontal splits to go below current window
 vim.opt.splitright = true                       -- force all vertical splits to go to the right of current window
 vim.opt.swapfile = false                        -- creates a swapfile
@@ -31,11 +30,11 @@ vim.opt.writebackup = false
 -- vim.opt.timeoutlen = 1000                       -- time to wait for a mapped sequence to complete (in milliseconds)
 -- vim.opt.numberwidth = 4                         -- set number column width to 2 {default 4}
 -- vim.opt.signcolumn = "yes"                      -- always show the sign column, otherwise it would shift the text each time
+-- vim.opt.smartindent = true                      -- make indenting smarter again
 -- vim.opt.wrap = false                            -- display lines as one long line
 -- vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
 -- vim.opt.number = true                           -- set numbered lines
 
 -- vim.opt.shortmess:append "c"
--- 
 -- vim.cmd "set whichwrap+=<,>,[,],h,l"
 -- vim.cmd [[set iskeyword+=-]]

@@ -52,3 +52,7 @@ keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_options)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_options)
 
 -- end of terminal mappings --
+
+-- telescope mappings
+keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", options)
+keymap("n", "<leader>g", "<cmd>Telescope live_grep<cr>", options)
