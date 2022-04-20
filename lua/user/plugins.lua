@@ -48,6 +48,7 @@ return packer.startup(function(use)
   use "lukas-reineke/indent-blankline.nvim" -- Indent Guides
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
+  use 'kyazdani42/nvim-tree.lua' -- Tree File Explorer written in lua
 
   -- colorschemes
   use "LunarVim/onedarker.nvim"

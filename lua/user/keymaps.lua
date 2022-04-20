@@ -15,9 +15,6 @@ vim.g.maplocalleader = " "
 keymap("n", "<S-l>", ":bnext<CR>", options)
 keymap("n", "<S-h>", ":bprevious<CR>", options)
 
--- netrw file explorer
-keymap("n", "<leader>e", ":Lex 15<cr>", options)
-
 -- resize with arrows
 keymap("n", "<C-Up>", ":resize +1<CR>", options)
 keymap("n", "<C-Down>", ":resize -1<CR>", options)
@@ -56,3 +53,6 @@ keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_options)
 -- telescope mappings
 keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", options)
 keymap("n", "<leader>g", "<cmd>Telescope live_grep<cr>", options)
+
+-- nvim tree mappings
+keymap("n", "<leader>e", ":NvimTreeToggle<cr>", options)
