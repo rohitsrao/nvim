@@ -72,6 +72,9 @@ return packer.startup(function(use)
   }
   use "p00f/nvim-ts-rainbow" -- rainbow paranthesis
 
+  -- telescope
+  use "nvim-telescope/telescope.nvim"
+
   -- automatically set up your configuration after cloning packer.nvim
   -- put this at the end after all plugins
   if PACKER_BOOTSTRAP then
