@@ -49,6 +49,7 @@ return packer.startup(function(use)
   use "windwp/nvim-autopairs" -- Autopairs, integrates with both cmp and treesitter
   use "numToStr/Comment.nvim" -- Easily comment stuff
   use 'kyazdani42/nvim-tree.lua' -- Tree File Explorer written in lua
+  use 'lewis6991/impatient.nvim' -- Speed load Lua modules through caching
 
   -- colorschemes
   use "LunarVim/onedarker.nvim"
