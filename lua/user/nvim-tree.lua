@@ -96,5 +96,12 @@ nvim_tree.setup {
   --  folder_arrows = 1,
   --  tree_width = 30,
   --},
+  show_icons = {
+    git = 0,
+    folders = 0,
+    files = 0,
+    folder_arrows = 0,
+    tree_width = 30,
+  },
 }
 
