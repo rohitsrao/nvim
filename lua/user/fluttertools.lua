@@ -9,17 +9,17 @@ require("flutter-tools").setup {
   --   -- depend on plugins like `nvim-notify` instead.
   --   notification_style = 'native' | 'plugin',
   -- },
-  -- decorations = {
-  --   statusline = {
-  --     -- set to true to be able use the 'flutter_tools_decorations.app_version' in your statusline
-  --     -- this will show the current version of the flutter app from the pubspec.yaml file
-  --     app_version = false,
-  --     -- set to true to be able use the 'flutter_tools_decorations.device' in your statusline
-  --     -- this will show the currently running device if an application was started with a specific
-  --     -- device
-  --     device = false,
-  --   }
-  -- },
+  decorations = {
+    statusline = {
+      -- set to true to be able use the 'flutter_tools_decorations.app_version' in your statusline
+      -- this will show the current version of the flutter app from the pubspec.yaml file
+      app_version = false,
+      -- set to true to be able use the 'flutter_tools_decorations.device' in your statusline
+      -- this will show the currently running device if an application was started with a specific
+      -- device
+      device = true,
+    }
+  },
   --debugger = { -- integrate with nvim dap + install dart code debugger
   --  enabled = false,
   --  run_via_dap = false, -- use dap instead of a plenary job to run flutter apps
