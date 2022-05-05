@@ -4,9 +4,10 @@ vim.opt.conceallevel = 0                        -- so that `` is visible in mark
 vim.opt.cursorline = true                       -- highlight the current line
 vim.opt.expandtab = true                        -- convert tabs to spaces
 vim.opt.fileencoding = "utf-8"                  -- the encoding written to a file
-vim.opt.foldmethod = 'manual'
--- vim.opt.foldexpr = 'nvim_treesitter#foldexpr()'
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim-treesitter#foldexpr()"
 vim.opt.ignorecase = true                       -- ignore case in search patterns
+vim.opt.number = true                           -- set numbered lines
 vim.opt.pumheight = 10                          -- pop up menu height
 vim.opt.relativenumber = true                   -- set relative numbered lines
 vim.opt.shiftwidth = 2                          -- the number of spaces inserted for each indentation
@@ -35,7 +36,6 @@ vim.opt.writebackup = false
 -- vim.opt.smartindent = true                      -- make indenting smarter again
 -- vim.opt.wrap = false                            -- display lines as one long line
 -- vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
--- vim.opt.number = true                           -- set numbered lines
 
 -- vim.opt.shortmess:append "c"
 -- vim.cmd "set whichwrap+=<,>,[,],h,l"
