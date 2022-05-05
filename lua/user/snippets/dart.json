@@ -1,7 +1,0 @@
-{
-  "blockprovider": {
-    "prefix": "blocprovider",
-    "body": "BlocProvider<${1:BlocName}>(create: (context) => ${1:BlocName}($0))",
-    "description": "BlocProvider Boiler Plate"
-  }
-}
