@@ -10,7 +10,7 @@ end
 local mode = {
 	"mode",
 	fmt = function(str)
-		return "-- " .. str .. " --"
+		return str
 	end,
 }
 
