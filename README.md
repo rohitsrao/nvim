@@ -4,7 +4,7 @@ My Neovim Configuration
 ### Installing NerdFonts for ChromeOS Terminal App
 [Source of fix](https://github.com/ryanoasis/nerd-fonts/issues/345#issuecomment-961718662)
 
-Ctrl+Shift+J to open dev console, input following code to get NERD font support. (tested on ChromeOS 94 Linux terminal)
+Ctrl+Shift+J from inside ChromeOS Terminal App to open dev console, input following code to get NERD font support. (tested on ChromeOS 94 Linux terminal)
 
 Then run the following commands in console
 ```
