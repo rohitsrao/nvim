@@ -31,10 +31,6 @@ keymap("n", "<C-l>", "<C-w>l", options)
 
 -- visual mode mappings --
 
--- indentation
-keymap("v", "<", "<gv", options)
-keymap("v", ">", ">gv", options)
-
 -- pasting over selection does not yank
 keymap("v", "p", '"_dP', options)
 
@@ -56,3 +52,9 @@ keymap("n", "<leader>g", "<cmd>Telescope live_grep<cr>", options)
 
 -- nvim tree mappings
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", options)
+
+--fluttertools mappings
+keymap("n", "<leader>Fr", ":FlutterRun<cr>", options)
+keymap("n", "<leader>FR", ":FlutterRestart<cr>", options)
+keymap("n", "<leader>Fq", ":FlutterQuit<cr>", options)
+keymap("n", "<leader>Fc", ":FlutterLogClear<cr>", options)
