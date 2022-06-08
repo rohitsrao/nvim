@@ -42,7 +42,7 @@ nvim_tree.setup {
   },
   open_on_tab = false,
   hijack_cursor = false,
-  update_cwd = true,
+  update_cwd = false,
   renderer = {
     indent_markers = {
       enable = true,
