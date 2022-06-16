@@ -29,7 +29,7 @@ require("flutter-tools").setup {
   --    }
   --  end,
   --},
-  flutter_path = "/home/rohitsrao/snap/flutter/common/flutter/bin/flutter", -- <-- this takes priority over the lookup
+  flutter_path = "/Users/rohitsrao/Library/flutter/bin/flutter", -- <-- this takes priority over the lookup
   --flutter_lookup_cmd = nil, -- example "dirname $(which flutter)" or "asdf where flutter"
   fvm = false, -- takes priority over path, uses <workspace>/.fvm/flutter_sdk if enabled
   widget_guides = {
@@ -71,8 +71,7 @@ require("flutter-tools").setup {
       showTodos = true,
       completeFunctionCalls = true,
       analysisExcludedFolders = {
-        "/home/rohitsrao/snap/flutter/common/flutter/.pub-cache",
-        "/home/rohitsrao/.pub-cache"
+        "/Users/rohitsrao/.pub-cache"
       }
     }
   }
