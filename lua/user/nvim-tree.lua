@@ -1,17 +1,3 @@
--- following options are the default
--- each of these are documented in `:help nvim-tree.OPTION_NAME`
-vim.g.nvim_tree_icons = {
-   default = "",
-   symlink = "",
-   folder = {
-     default = "",
-     open = "",
-     empty = "",
-     empty_open = "",
-     symlink = "",
-   },
-}
-
 local status_ok, nvim_tree = pcall(require, "nvim-tree")
 if not status_ok then
   return
@@ -23,13 +9,6 @@ if not config_status_ok then
 end
 
 local tree_cb = nvim_tree_config.nvim_tree_callback
-
-vim.g.nvim_tree_show_icons = {
-  folders = 1,
-  files = 1,
-  git = 0,
-  folder_arrows = 1,
-}
 
 nvim_tree.setup {
   disable_netrw = true,
