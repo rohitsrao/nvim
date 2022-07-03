@@ -18,6 +18,7 @@ configs.setup {
     "lua",
     "python",
     "regex",
+    "rust",
     "typescript",
     "yaml"
   },
