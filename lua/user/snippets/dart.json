@@ -1,0 +1,59 @@
+{
+  "bloc logic file init": {
+    "prefix": "bi",
+    "body": [
+      "import 'dart:async';",
+      "import 'package:bloc/bloc.dart';",
+      "import 'package:equatable/equatable.dart';",
+      "",
+      "part '${2/(.*)/${2:/downcase}/}_event.dart';",
+      "part '${2/(.*)/${2:/downcase}/}_state.dart';",
+
+      "class $1Bloc extends Bloc<$1Event, $1State> {",
+      "",  
+      "  $1Bloc() : super($1Initial());",
+      "",
+      "  @override",
+      "  Stream<$1State> mapEventToState($1Event event) async* {",
+      "  }",
+      "}"
+    ],
+    "description": "Boiler plate code for initializing bloc logic file"
+
+  },
+  "bloc event file init": {
+    "prefix": "bei",
+    "body": [
+    "part of '$2_bloc.dart';",
+    "",
+    "abstract class $1Event extends Equatable {",
+    "",
+    "  @override",
+    "  List<Object> get props => [];",
+    "}"
+    ],
+    "description": "Boiler plate code for initializing bloc logic file"
+
+  },
+  "bloc state file init": {
+    "prefix": "bsi",
+    "body": [
+    "part of '$2_bloc.dart';",
+    "",
+    "abstract class $1State extends Equatable {",
+    "",
+    "  @override",
+    "  List<Object> get props => [];",
+    "}",
+    "",
+    "class $1Initial extends $1State {}"
+    ],
+    "description": "Boiler plate code for initializing bloc logic file"
+  },
+  "blocprovider": {
+    "prefix": "blp",
+    "body": "BlocProvider<${1:BlocName}>(create: (context) => ${1:BlocName}($0))",
+    "description": "BlocProvider Boiler Plate"
+  }
+
+}
