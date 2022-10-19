@@ -54,7 +54,7 @@ return packer.startup(function(use)
   use "akinsho/flutter-tools.nvim"          -- Flutter Tools
 
   -- nvim-tree
-  --use 'kyazdani42/nvim-tree.lua'            -- Tree File Explorer written in lua
+  use 'kyazdani42/nvim-tree.lua'            -- Tree File Explorer written in lua
 
   -- colorschemes
   use "LunarVim/onedarker.nvim"
