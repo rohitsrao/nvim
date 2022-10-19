@@ -55,7 +55,7 @@ return packer.startup(function(use)
   --use 'kyazdani42/nvim-tree.lua'            -- Tree File Explorer written in lua
 
   -- colorschemes
-  --use "LunarVim/onedarker.nvim"
+  use "LunarVim/onedarker.nvim"
 
   -- completion plugins
   --use "hrsh7th/nvim-cmp" -- The completion plugin
