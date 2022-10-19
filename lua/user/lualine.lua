@@ -24,6 +24,7 @@ local branch = {
 	"branch",
 	icons_enabled = true,
 	icon = "",
+  color={fg="#f5c542"},
 }
 
 local location = {
