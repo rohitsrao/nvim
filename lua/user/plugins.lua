@@ -41,14 +41,14 @@ packer.init {
 -- install your plugins here
 return packer.startup(function(use)
 
+  use 'lewis6991/impatient.nvim'            -- Speed load Lua modules through caching
+  use 'nvim-lualine/lualine.nvim'           -- Status Line
   use "windwp/nvim-autopairs"               -- Autopairs, integrates with both cmp and treesitter
   use "wbthomason/packer.nvim"              -- Have packer manage itself
   use "nvim-lua/plenary.nvim"               -- Useful lua functions used ny lots of plugins. many plugins depend on this.
   use "nvim-lua/popup.nvim"                 -- An implementation of the Popup API from vim in Neovim. many plugins depend on this.
   --use "lukas-reineke/indent-blankline.nvim" -- Indent Guides
   --use "numToStr/Comment.nvim"               -- Easily comment stuff
-  --use 'lewis6991/impatient.nvim'            -- Speed load Lua modules through caching
-  --use 'nvim-lualine/lualine.nvim'           -- Status Line
 
   --Flutter
   use "akinsho/flutter-tools.nvim"          -- Flutter Tools
