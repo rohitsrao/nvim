@@ -74,12 +74,12 @@ return packer.startup(function(use)
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
 
   -- treesitter
-  --use {
-  --  "nvim-treesitter/nvim-treesitter",
-  --  run = ":TSUpdate",
-  --}
-  --use "p00f/nvim-ts-rainbow" -- rainbow paranthesis
-  --use 'JoosepAlviste/nvim-ts-context-commentstring' -- context aware commenting especially for jsx
+  use {
+    "nvim-treesitter/nvim-treesitter",
+    run = ":TSUpdate",
+  }
+  use "p00f/nvim-ts-rainbow" -- rainbow paranthesis
+  use 'JoosepAlviste/nvim-ts-context-commentstring' -- context aware commenting especially for jsx
 
   -- telescope
   use "nvim-telescope/telescope.nvim"
