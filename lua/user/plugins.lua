@@ -47,8 +47,7 @@ return packer.startup(function(use)
   use "wbthomason/packer.nvim"              -- Have packer manage itself
   use "nvim-lua/plenary.nvim"               -- Useful lua functions used ny lots of plugins. many plugins depend on this.
   use "nvim-lua/popup.nvim"                 -- An implementation of the Popup API from vim in Neovim. many plugins depend on this.
-  --use "lukas-reineke/indent-blankline.nvim" -- Indent Guides
-  --use "numToStr/Comment.nvim"               -- Easily comment stuff
+  use "lukas-reineke/indent-blankline.nvim" -- Indent Guides
 
   --Flutter
   use "akinsho/flutter-tools.nvim"          -- Flutter Tools
@@ -83,7 +82,7 @@ return packer.startup(function(use)
   --use 'JoosepAlviste/nvim-ts-context-commentstring' -- context aware commenting especially for jsx
 
   -- telescope
-  --use "nvim-telescope/telescope.nvim"
+  use "nvim-telescope/telescope.nvim"
 
   -- automatically set up your configuration after cloning packer.nvim
   -- put this at the end after all plugins
