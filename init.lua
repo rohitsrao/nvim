@@ -1,14 +1,14 @@
-require "user.autopairs"
-require "user.colorscheme"
-require "user.completion"
-require "user.fluttertools"
-require "user.impatient"
-require "user.keymaps"
-require "user.lsp"
-require "user.lualine"
-require "user.luasnip"
-require "user.nvim-tree"
-require "user.options"
-require "user.plugins"
-require "user.telescope"
-require "user.treesitter"
+require("user.autopairs")
+require("user.colorscheme")
+require("user.completion")
+require("user.fluttertools")
+require("user.impatient")
+require("user.keymaps")
+require("user.lsp")
+require("user.lualine")
+require("user.luasnip")
+require("user.nvim-tree")
+require("user.options")
+require("user.plugins")
+require("user.telescope")
+require("user.treesitter")
