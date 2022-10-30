@@ -83,6 +83,9 @@ return packer.startup(function(use)
 
   -- telescope
   use "nvim-telescope/telescope.nvim"
+  
+  -- gitsigns
+  use 'lewis6991/gitsigns.nvim'
 
   -- automatically set up your configuration after cloning packer.nvim
   -- put this at the end after all plugins
