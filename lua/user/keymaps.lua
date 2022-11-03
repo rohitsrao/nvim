@@ -27,24 +27,15 @@ keymap("n", "<C-j>", "<C-w>j", options)
 keymap("n", "<C-k>", "<C-w>k", options)
 keymap("n", "<C-l>", "<C-w>l", options)
 
--- end of normal mode mappings --
-
 -- visual mode mappings --
-
--- pasting over selection does not yank
-keymap("v", "p", '"_dP', options)
-
--- end of visual mode mappings --
+keymap("v", "p", '"_dP', options) -- pasting over selection does not yank
 
 -- terminal mappings--
-
 -- better terminal navigation
 keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_options)
 keymap("t", "<C-j>", "<C-\\><C-N><C-w>j", term_options)
 keymap("t", "<C-k>", "<C-\\><C-N><C-w>k", term_options)
 keymap("t", "<C-l>", "<C-\\><C-N><C-w>l", term_options)
-
--- end of terminal mappings --
 
 -- telescope mappings
 keymap("n", "<leader>f", "<cmd>Telescope find_files<cr>", options)
