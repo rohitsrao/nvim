@@ -1,0 +1,12 @@
+{
+  "div tag": {
+    "prefix": "div",
+    "body": [
+      "<div>",
+      " $1",
+      "</div>",
+    ],
+    "description": "HTML div tag"
+
+  },
+}

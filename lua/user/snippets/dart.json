@@ -8,14 +8,12 @@
       "",
       "part '${2/(.*)/${2:/downcase}/}_event.dart';",
       "part '${2/(.*)/${2:/downcase}/}_state.dart';",
-
+      "",
       "class $1Bloc extends Bloc<$1Event, $1State> {",
       "",  
-      "  $1Bloc() : super($1Initial());",
-      "",
-      "  @override",
-      "  Stream<$1State> mapEventToState($1Event event) async* {",
+      "  $1Bloc() : super($1Initial()) {",
       "  }",
+      "",
       "}"
     ],
     "description": "Boiler plate code for initializing bloc logic file"
