@@ -3,9 +3,12 @@
   "contributes": {
     "snippets": [
       {
-        "language": "dart",
-        "path": "./dart.json"
-      }
+        "language": [
+          "typescript",
+          "typescriptreact"
+        ],
+        "path": "./html.json"
+      },
     ]
   }
 }
