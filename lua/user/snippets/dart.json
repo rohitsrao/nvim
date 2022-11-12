@@ -17,7 +17,6 @@
       "}"
     ],
     "description": "Boiler plate code for initializing bloc logic file"
-
   },
   "bloc event file init": {
     "prefix": "bei",
@@ -31,7 +30,6 @@
     "}"
     ],
     "description": "Boiler plate code for initializing bloc logic file"
-
   },
   "bloc state file init": {
     "prefix": "bsi",
@@ -53,5 +51,4 @@
     "body": "BlocProvider<${1:BlocName}>(create: (context) => ${1:BlocName}($0))",
     "description": "BlocProvider Boiler Plate"
   }
-
 }

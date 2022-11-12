@@ -83,7 +83,7 @@ return packer.startup(function(use)
 
   -- telescope
   use "nvim-telescope/telescope.nvim"
-  
+    
   -- gitsigns
   use 'lewis6991/gitsigns.nvim'
 

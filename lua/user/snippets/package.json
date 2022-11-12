@@ -3,10 +3,11 @@
   "contributes": {
     "snippets": [
       {
-        "language": [
-          "typescript",
-          "typescriptreact"
-        ],
+        "language": "dart"
+        "path": "./dart.json"
+      },
+      {
+        "language": "typescriptreact"
         "path": "./html.json"
       },
     ]
