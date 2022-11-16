@@ -4,8 +4,8 @@
     "body": [
       "<div>",
       " $1",
-      "</div>",
+      "</div>"
     ],
     "description": "HTML div tag"
-  },
+  }
 }

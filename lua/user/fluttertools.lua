@@ -1,4 +1,3 @@
--- alternatively you can override the default configs
 require("flutter-tools").setup {
   -- ui = {
   --   -- the border type to use for all floating windows, the same options/formats
@@ -30,9 +29,9 @@ require("flutter-tools").setup {
   --  end,
   --},
   --flutter_path = "/Users/rohitsrao/Library/flutter/bin/flutter", -- <-- this takes priority over the lookup
-  flutter_path = ".fvm/flutter_sdk/bin/flutter", -- <-- this takes priority over the lookup
+   flutter_path = ".fvm/flutter_sdk/bin/flutter", -- <-- this takes priority over the lookup
   --flutter_lookup_cmd = nil, -- example "dirname $(which flutter)" or "asdf where flutter"
-  fvm = false, -- takes priority over path, uses <workspace>/.fvm/flutter_sdk if enabled
+  --fvm = true, -- takes priority over path, uses <workspace>/.fvm/flutter_sdk if enabled
   widget_guides = {
     enabled = false,
   },

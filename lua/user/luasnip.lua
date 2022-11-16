@@ -5,6 +5,5 @@ end
 
 -- lazy loading of snippets
 require("luasnip.loaders.from_vscode").lazy_load({
-	-- paths =  "~/.config/nvim/lua/user/snippets/"
-	paths =  "./snippets/"
+	 paths =  "~/.config/nvim/lua/user/snippets/";
 })
