@@ -1,9 +1,16 @@
 {
+  "button tag": {
+    "prefix": "button",
+    "body": [
+      "<button>$1</button>"
+    ],
+    "description": "HTML button tag"
+  },
   "div tag": {
     "prefix": "div",
     "body": [
       "<div>",
-      " $1",
+      "  $1",
       "</div>"
     ],
     "description": "HTML div tag"
