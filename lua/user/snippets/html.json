@@ -2,7 +2,7 @@
   "button tag": {
     "prefix": "button",
     "body": [
-      "<button>$1</button>"
+      "<button onClick={$2}>$1</button>"
     ],
     "description": "HTML button tag"
   },
@@ -14,5 +14,12 @@
       "</div>"
     ],
     "description": "HTML div tag"
+  },
+  "heading tag": {
+    "prefix": "h",
+    "body": [
+      "<h$1>$2</h$1>"
+    ],
+    "description": "HTML heading tag"
   }
 }
