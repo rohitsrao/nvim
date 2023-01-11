@@ -87,6 +87,11 @@ return packer.startup(function(use)
   -- gitsigns
   use 'lewis6991/gitsigns.nvim'
 
+  -- neotest
+  use 'nvim-neotest/neotest'
+  use 'nvim-neotest/neotest-python'
+  use 'antoinemadec/FixCursorHold.nvim'
+
   -- automatically set up your configuration after cloning packer.nvim
   -- put this at the end after all plugins
   if PACKER_BOOTSTRAP then

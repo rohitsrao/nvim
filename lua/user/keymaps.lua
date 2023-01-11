@@ -49,3 +49,6 @@ keymap("n", "<leader>Fr", ":FlutterRun<cr>", options)
 keymap("n", "<leader>FR", ":FlutterRestart<cr>", options)
 keymap("n", "<leader>Fq", ":FlutterQuit<cr>", options)
 keymap("n", "<leader>Fc", ":FlutterLogClear<cr>", options)
+
+-- neotest mappings
+keymap("n", "<leader>tn", ":lua require('neotest').run.run()<cr>", options)
