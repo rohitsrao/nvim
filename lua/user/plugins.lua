@@ -90,6 +90,7 @@ return packer.startup(function(use)
   -- neotest
   use 'nvim-neotest/neotest'
   use 'nvim-neotest/neotest-python'
+  use 'sidlatau/neotest-dart'
   use 'antoinemadec/FixCursorHold.nvim'
 
   -- automatically set up your configuration after cloning packer.nvim
