@@ -18,8 +18,9 @@ keymap("n", "<S-h>", ":bprevious<CR>", options)
 -- resize with arrows
 keymap("n", "<C-Up>", ":resize +1<CR>", options)
 keymap("n", "<C-Down>", ":resize -1<CR>", options)
-keymap("n", "<C-Left>", ":vertical resize -1<CR>", options)
-keymap("n", "<C-Right>", ":vertical resize +1<CR>", options)
+-- Ctrl+< to go left and Ctrl+> to go right
+keymap("n", "<C-<>", ":vertical resize +1<CR>", options)
+keymap("n", "<C->>", ":vertical resize -1<CR>", options)
 
 -- window navigation
 keymap("n", "<C-h>", "<C-w>h", options)
@@ -52,3 +53,4 @@ keymap("n", "<leader>Fc", ":FlutterLogClear<cr>", options)
 
 -- neotest mappings
 keymap("n", "<leader>tn", ":lua require('neotest').run.run()<cr>", options)
+keymap("n", "<leader>tf", ":lua require('neotest').run.run(vim.fn.expand('%'))<cr>", options)
