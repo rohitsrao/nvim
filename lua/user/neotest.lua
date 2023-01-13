@@ -75,7 +75,7 @@ require("neotest").setup({
     },
     log_level = 3,
     output = {
-      enabled = true,
+      enabled = false,
       open_on_run = "short"
     },
     output_panel = {
