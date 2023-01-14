@@ -54,5 +54,4 @@ keymap("n", "<leader>Fc", ":FlutterLogClear<cr>", options)
 -- neotest mappings
 keymap("n", "<leader>tn", ":lua require('neotest').run.run()<cr>", options)
 keymap("n", "<leader>tf", ":lua require('neotest').run.run(vim.fn.expand('%'))<cr>", options)
-keymap("n", "<leader>tb", ":lua require('neotest').run.run()<cr> | lua require('neotest').output.open({ enter = true })<cr>", options)
 
