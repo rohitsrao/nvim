@@ -46,8 +46,8 @@ keymap("n", "<leader>g", "<cmd>Telescope live_grep<cr>", options)
 keymap("n", "<leader>e", ":NvimTreeToggle<cr>", options)
 
 --fluttertools mappings
-keymap("n", "<leader>Fr", ":FlutterRun<cr>", options)
-keymap("n", "<leader>Fs", ":FlutterRun --dart-define=STAGING<cr>", options)
+keymap("n", "<leader>Fr", ":FlutterRun --dart-define=DEV=true<cr>", options)
+keymap("n", "<leader>Fs", ":FlutterRun --dart-define=STAGING=true<cr>", options)
 keymap("n", "<leader>Fq", ":FlutterQuit<cr>", options)
 keymap("n", "<leader>Fc", ":FlutterLogClear<cr>", options)
 keymap("n", "<leader>FR", ":FlutterRestart<cr>", options)
