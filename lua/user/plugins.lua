@@ -66,6 +66,9 @@ return packer.startup(function(use)
   use "hrsh7th/cmp-nvim-lsp" -- include lsp suggestions in cmp
   use "saadparwaiz1/cmp_luasnip" -- snippet completions
 
+  -- github copilot
+  use "zbirenbaum/copilot.lua"
+
   -- snippets
   use "L3MON4D3/LuaSnip" --snippet engine
 

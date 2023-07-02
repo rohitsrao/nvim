@@ -1,6 +1,7 @@
 require("user.autopairs")
 require("user.colorscheme")
 require("user.completion")
+require("user.copilot")
 require("user.fluttertools")
 require("user.gitsigns")
 require("user.impatient")
