@@ -9,6 +9,7 @@ configs.setup {
     "css",
     "dart",
     "dockerfile",
+    "go",
     "haskell",
     "html",
     "http",
