@@ -3,6 +3,7 @@ local options = {
   clipboard = "unnamedplus",               -- allows neovim to access the system clipboard
   cursorline = true,                       -- highlight the current line
   conceallevel = 0,                        -- so that `` is visible in markdown files
+  completeopt = { "menu", "menuone", "noselect" }, -- no preselect for cmp
   expandtab = true,                        -- convert tabs to spaces
   fileencoding = "utf-8",                  -- the encoding written to a file
   ignorecase = true,                       -- ignore case in search patterns

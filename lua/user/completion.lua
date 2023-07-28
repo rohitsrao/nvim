@@ -106,3 +106,7 @@ cmp.setup {
     select = false,
   },
 }
+
+cmp.setup.filetype('go', {
+  preselect = cmp.PreselectMode.None,
+})
